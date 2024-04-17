@@ -1,0 +1,24 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "My first node project",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "clean": "rimraf dist",
+    "makeit":"npm run clean && npm run build"
+  },
+  "author": "SG",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "parcel": "^2.12.0",
+    "rimraf": "^5.0.5"
+  }
+}
